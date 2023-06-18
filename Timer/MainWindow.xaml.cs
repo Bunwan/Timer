@@ -46,7 +46,7 @@ namespace Timer
             timer.Interval = TimeSpan.FromSeconds(1);   // 這個計時器設定每一個刻度為1秒
             timer.Tick += new EventHandler(timer_tick); // 每一個時間刻度設定一個小程序timer_tick
             timer.Start(); // 啟動這個計時器
-           F // 設定「鬧鐘」計時器 
+            // 設定「鬧鐘」計時器 
             timerAlert.Interval = TimeSpan.FromSeconds(1);        // 這個計時器設定每一個刻度為1秒
             timerAlert.Tick += new EventHandler(timerAlert_tick); // 每一個時間刻度設定一個小程序timerAlert_tick
 
